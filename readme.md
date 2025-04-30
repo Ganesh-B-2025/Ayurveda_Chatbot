@@ -14,14 +14,14 @@ This is a Flask-based web chatbot that suggests Ayurvedic remedies based on user
 * NLP: TF-IDF Vectorizer + Cosine Similarity
 
 ### Installation
-1. Clone the repository:
+1. Clone the repository: <br>
 ```git clone https://github.com/Ganesh-B-2025/Ayurveda_Chatbot.git```<br>
 ```cd ayurveda-chatbot```
-2. Install dependencies:
+2. Install dependencies: <br>
 ```pip install -r requirements.txt```
-3. Add your dataset: Place your dataset named ```ayurveda_remedies_extended.csv``` in the root directory. It should contain the following columns:
-```Disease/Symptoms```<br>
-```Remedy```
+3. Add your dataset: Place your dataset named ```ayurveda_remedies_extended.csv``` in the root directory. It should contain the following columns: <br>
+#### ```Disease/Symptoms```<br>
+#### ```Remedy```
 4. Run the application:
 ```python app.py```
 5. Visit in browser:
