@@ -15,7 +15,7 @@ This is a Flask-based web chatbot that suggests Ayurvedic remedies based on user
 
 ### Installation
 1. Clone the repository:
->```git clone https://github.com/Ganesh-B-2025/Ayurveda_Chatbot.git```
+>```git clone https://github.com/Ganesh-B-2025/Ayurveda_Chatbot.git```<br>
 >```cd ayurveda-chatbot```
 2. Install dependencies:
 >```pip install -r requirements.txt```
@@ -45,7 +45,7 @@ This is a Flask-based web chatbot that suggests Ayurvedic remedies based on user
 4. ```hi / bye```<br>
 
 ## Output Screenshot
-![Sample output](images/Output.JPG)
+![Sample output.](images/Output.JPG)
 
 ## To-Do (Optional)
 1. Add user authentication
