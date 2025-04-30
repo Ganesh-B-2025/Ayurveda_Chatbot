@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayurveda Chatbot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">🌿 Ayurveda Chatbot</div>
+    <div class="chat-box" id="chat-box"></div>
+    <div class="input-box">
+      <input type="text" id="user-input" placeholder="Describe your symptoms...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script>
+    function sendMessage() {
+      const userInput = document.getElementById("user-input").value.trim();
+      const chatBox = document.getElementById("chat-box");
+
+      if (userInput === "") return;
+
+      const userMessage = `
+        <div class="message user-message">
+          ${userInput}
+        </div>`;
+      chatBox.innerHTML += userMessage;
+      document.getElementById("user-input").value = "";
+
+      fetch('/get_remedy', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: userInput })
+      })
+        .then(response => response.json())
+        .then(data => {
+          const botMessage = `
+            <div class="message bot-message">
+              <img src="https://cdn-icons-png.flaticon.com/512/4712/4712037.png" alt="Bot">
+              <span>${data.remedy}</span>
+            </div>`;
+          chatBox.innerHTML += botMessage;
+          chatBox.scrollTop = chatBox.scrollHeight;
+        });
+    }
+  </script>
+</body>
+</html>
