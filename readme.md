@@ -64,4 +64,30 @@
     <li>app.py</li>
 </ul>
 
+<h2>Sample Inputs</h2>
+<ul>
+    <li>headache, cold</li>
+    <li>anxiety</li>
+    <li>hi / bye</li>
+</ul>
+
+<h2>Sample Output</h2>
+<img src="Output.JPG" width="100vw" height="auto">
+
+<h2>📝 To-Do (Optional)</h2>
+<ol style="1">
+    <li>Add user authentication</li>
+    <li>Integrate with a database (e.g., MongoDB)</li>
+    <li>Export recommendations to PDF</li>
+    <li>Add voice input and response</li>
+</ol>
+
+<h2>🤝Contributing</h2>
+<p>Feel free to fork and improve this project. Pull requests are welcome!</p>
+
+
+<h2>📃 License</h2>
+<p>This project is open-source and free to use under the MIT License.</p>
+
+
 
