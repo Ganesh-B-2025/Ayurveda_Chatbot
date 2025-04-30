@@ -45,7 +45,7 @@ Open http://127.0.0.1:5000/ in your browser.
 4. ```hi / bye```<br>
 
 ## Output Screenshot
-![Sample output.](images/Output.JPG)
+![Output](https://github.com/user-attachments/assets/3ba94838-3ea5-4197-830f-dbb0410cce03)
 
 ## To-Do (Optional)
 1. Add user authentication
