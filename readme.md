@@ -18,14 +18,15 @@ This is a Flask-based web chatbot that suggests Ayurvedic remedies based on user
 ## Installation
 ### Order
 1. Clone the repository:
-```git clone https://github.com/Ganesh-B-2025/Ayurveda_Chatbot.git```
-```cd ayurveda-chatbot```
+>```git clone https://github.com/Ganesh-B-2025/Ayurveda_Chatbot.git```
+>```cd ayurveda-chatbot```
 2. Install dependencies:
-```pip install -r requirements.txt```
+>```pip install -r requirements.txt```
 3. Add your dataset: Place your dataset named ```ayurveda_remedies_extended.csv``` in the root directory. It >should contain the following columns:
-```Disease/Symptoms```
-```Remedy```
+>```Disease/Symptoms```
+>```Remedy```
 4. Run the application:
-```python app.py```
+>```python app.py```
 5. Visit in browser:
-Open http://127.0.0.1:5000/ in your browser.
+>Open http://127.0.0.1:5000/ in your browser.
+
