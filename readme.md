@@ -39,10 +39,10 @@ This is a Flask-based web chatbot that suggests Ayurvedic remedies based on user
 └── `requirements.txt`  <br>
 
 ## Example Inputs <br>
-```headache```<br>
-```cold```<br>
-```anxiety```<br>
-```hi / bye```<br>
+1. ```headache```<br>
+2. ```cold```<br>
+3. ```anxiety```<br>
+4. ```hi / bye```<br>
 
 ## To-Do (Optional)
 1. Add user authentication
