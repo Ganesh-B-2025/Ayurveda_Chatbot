@@ -88,6 +88,3 @@
 
 <h2>📃 License</h2>
 <p>This project is open-source and free to use under the MIT License.</p>
-
-
-
