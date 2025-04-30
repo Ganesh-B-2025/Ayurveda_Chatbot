@@ -45,8 +45,7 @@ This is a Flask-based web chatbot that suggests Ayurvedic remedies based on user
 4. ```hi / bye```<br>
 
 ## Output Screenshot
-![Sample output.]('./Output.jpg')
-<img src="Output.JPG">
+![Sample output.]('Output.jpg')
 
 ## To-Do (Optional)
 1. Add user authentication
