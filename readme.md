@@ -27,36 +27,32 @@ This is a Flask-based web chatbot that suggests Ayurvedic remedies based on user
 5. Visit in browser:
 >Open http://127.0.0.1:5000/ in your browser.
 
-## 📁 Folder Structure<br>
-#### Ayurveda_Chatbot
->├── ```data/``` <br>
->>  ├── ```ayurveda_remedies_extended.csv``` <br>
->├── ```static/``` <br>
->>  ├── ```style.css``` <br>
->├── ```templates/``` <br>
->>  ├── ```index.html``` <br>
->├── app.py <br>
->├── requirements.txt<br>
+## 📁 Folder Structure  
+### Ayurveda_Chatbot  
+├── `data/`  <br>
+│   └── `ayurveda_remedies_extended.csv`  <br>
+├── `static/`  <br>
+│   └── `style.css`  <br>
+├── `templates/`  <br>
+│   └── `index.html`  <br>
+├── `app.py`  <br>
+└── `requirements.txt`  <br>
 
-✅ Example Inputs
-headache, cold
+## Example Inputs <br>
+```headache```<br>
+```cold```<br>
+```anxiety```<br>
+```hi / bye```<br>
 
-anxiety
+## To-Do (Optional)
+1. Add user authentication
+2. Integrate with a database (e.g., MongoDB)
+3. Export recommendations to PDF
+4. Add voice input and response
 
-hi / bye
-
-📝 To-Do (Optional)
-Add user authentication
-
-Integrate with a database (e.g., MongoDB)
-
-Export recommendations to PDF
-
-Add voice input and response
-
-🤝 Contributing
+## 🤝 Contributing
 Feel free to fork and improve this project. Pull requests are welcome!
 
-📃 License
+## License
 This project is open-source and free to use under the MIT License.
 
