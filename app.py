@@ -55,7 +55,7 @@ def find_best_match(query, df, vectorizer, tfidf_matrix):
     return list(remedies) if remedies else ["No relevant remedy found."]
 
 # Load dataset and train model
-df = load_dataset(r"data\ayurveda_remedies_extended.csv")
+df = load_dataset(r"data/ayurveda_remedies_extended.csv")
 vectorizer, tfidf_matrix = train_tfidf_model(df)
 
 @app.route('/')
